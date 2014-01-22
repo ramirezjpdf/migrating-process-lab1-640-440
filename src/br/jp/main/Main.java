@@ -11,7 +11,6 @@ public class Main {
 		ProcessManager pm = new ProcessManager();
 		CommandLineInterface cl = new CommandLineInterface(System.in, pm);
 		cl.runPrompt();
-
 	}
 
 }
