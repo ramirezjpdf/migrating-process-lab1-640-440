@@ -12,5 +12,4 @@ public class Main {
 		CommandLineInterface cl = new CommandLineInterface(System.in, pm);
 		cl.runPrompt();
 	}
-
 }
