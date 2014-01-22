@@ -14,9 +14,9 @@ public class CommandLineInterface {
 	private InputStream is;
 	private ProcessManager procManager;
 	
-	public CommandLineInterface(InputStream is){
+	public CommandLineInterface(InputStream is, ProcessManager procManager){
 		this.is = is;
-		this.procManager = new ProcessManager();
+		this.procManager = procManager;
 	}
 	
 	public void runPrompt() throws IOException{
