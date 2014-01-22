@@ -23,8 +23,8 @@ public class ProcessManager {
 		}
 		
 		this.migProcs.add(migProc);
-		Thread proc = new Thread(migProc);
-		
+		Thread migProcThread = new Thread(migProc);
+		migProcThread.start();
 	}
 	
 	public List<String> ps(){
